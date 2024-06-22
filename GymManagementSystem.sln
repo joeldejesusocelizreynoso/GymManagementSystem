@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Domain", "GymManagementSystem.Domain\GymManagementSystem.Domain.csproj", "{63C823BE-0928-4AF6-884F-A6ADDA3CC9E1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Infrastructure", "GymManagementSystem.Infrastructure\GymManagementSystem.Infrastructure.csproj", "{74FF3D62-0207-47FF-9ECC-D477F1F24999}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Application", "GymManagementSystem.Application\GymManagementSystem.Application.csproj", "{0465D690-B145-4DB3-8040-8A7C42D4D293}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagementSystem.Web", "GymManagementSystem.Web\GymManagementSystem.Web.csproj", "{F67E9637-DA62-41B4-8285-023F849C9B94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Web", "GymManagementSystem.Web\GymManagementSystem.Web.csproj", "{F67E9637-DA62-41B4-8285-023F849C9B94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagementSystem.Api", "GymManagementSystem.Api\GymManagementSystem.Api.csproj", "{8555C470-011F-429F-AC77-68F35DFC463F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Api", "GymManagementSystem.Api\GymManagementSystem.Api.csproj", "{8555C470-011F-429F-AC77-68F35DFC463F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagementSystem.Ioc", "GymManagementSystem.Ioc\GymManagementSystem.Ioc.csproj", "{C712D0F2-CAEB-4692-A507-43B66BBE7623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Ioc", "GymManagementSystem.Ioc\GymManagementSystem.Ioc.csproj", "{C712D0F2-CAEB-4692-A507-43B66BBE7623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagementSystem.Domain", "GymManagementSystem.Domain\GymManagementSystem.Domain.csproj", "{74944C4D-DAD0-4831-A1A7-EE57436670AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63C823BE-0928-4AF6-884F-A6ADDA3CC9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63C823BE-0928-4AF6-884F-A6ADDA3CC9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63C823BE-0928-4AF6-884F-A6ADDA3CC9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63C823BE-0928-4AF6-884F-A6ADDA3CC9E1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74FF3D62-0207-47FF-9ECC-D477F1F24999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74FF3D62-0207-47FF-9ECC-D477F1F24999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FF3D62-0207-47FF-9ECC-D477F1F24999}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{C712D0F2-CAEB-4692-A507-43B66BBE7623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C712D0F2-CAEB-4692-A507-43B66BBE7623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C712D0F2-CAEB-4692-A507-43B66BBE7623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
