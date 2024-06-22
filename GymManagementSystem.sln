@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Api", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagementSystem.Ioc", "GymManagementSystem.Ioc\GymManagementSystem.Ioc.csproj", "{C712D0F2-CAEB-4692-A507-43B66BBE7623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagementSystem.Domain", "GymManagementSystem.Domain\GymManagementSystem.Domain.csproj", "{74944C4D-DAD0-4831-A1A7-EE57436670AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagementSystem.Domain", "GymManagementSystem.Domain\GymManagementSystem.Domain.csproj", "{EDAA9E4F-A6F3-42E4-9B1A-0A862152ABA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{C712D0F2-CAEB-4692-A507-43B66BBE7623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C712D0F2-CAEB-4692-A507-43B66BBE7623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C712D0F2-CAEB-4692-A507-43B66BBE7623}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74944C4D-DAD0-4831-A1A7-EE57436670AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAA9E4F-A6F3-42E4-9B1A-0A862152ABA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAA9E4F-A6F3-42E4-9B1A-0A862152ABA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAA9E4F-A6F3-42E4-9B1A-0A862152ABA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAA9E4F-A6F3-42E4-9B1A-0A862152ABA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
